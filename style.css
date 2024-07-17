@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.navBar-left{
+    color: white;
+}
+.navBar-left h3{
+    color: red;
+    font-size: 30px;
+}
+.navBar-rights ul{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+.navBar-rights ul li{
+    list-style: none;
+    margin-right: 8px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    padding: 10px 15px;
+}
+.navBar-rights .nav-style{
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
