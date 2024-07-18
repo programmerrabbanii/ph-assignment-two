@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
     background-color: black;
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     
 }
@@ -38,4 +41,143 @@
     background-color: red;
     padding: 10px 15px;
     border-radius: 20px;
+}
+/* bannar section start */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 40px;
+}
+.bannar-left h3{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 90px;
+    text-transform: capitalize;
+}
+.bannar-left p{
+    color: #777777;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.bannar-left .button-1{
+    color: white;
+    background-color: #E6533C;
+    padding: 14px 23px;
+    border: none;
+    margin-top: 14px;
+    border-radius: 29px;
+
+}
+
+.bannar-left .button-2{
+    padding: 14px 23px;
+    border: 1px solid #777777;
+    margin-top: 14px;
+    border-radius: 29px;
+    color: white;
+    background: none;
+
+}
+.hidden-nav{
+    color: white;
+}
+.bannar-rights img{
+    width: 100%;
+}
+
+/* bannar inner btn style here */
+.bannar-rights{
+    position: relative;
+}
+.video-toturial{
+   background-color: #6f6c6c95;
+    position: absolute;
+    left: -28px;
+    bottom: 80px;
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 9px;
+
+
+}
+.video-rights h4{
+    font-size: 26px;
+}
+
+.video-left{
+    width: 20px;
+    height: 20px;
+    background-color: #ef0e0e;
+    border-radius: 100%;
+}
+.video-workout{
+    background-color: #6f6c6c95;
+    position: absolute;
+    left: 192px;
+    top: 90px;
+    padding: 19px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 9px;
+    width: 168px;
+
+}
+.workout-inner h4{
+    font-size: 26px;
+
+}
+.workout-inner p{
+    color: #ffffff;
+}
+
+
+
+
+
+.hidden-nav{
+    color: white;
+    display: none;
+}
+
+.bannar img{
+    width: 100%;
+}
+/* bannar section end */
+/* change your habbis section start */
+
+
+/* responsive desing start here */
+@media screen and (max-width:676px){
+    .hidden-nav{
+        color: white;
+        display: block;
+    }
+    .navBar-rights {
+        display: none;
+    }
+  
+    .bannar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        padding: 40px;
+        padding: 15px;
+    }
+    .bannar-left h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    text-transform: capitalize;
+    }
+    .video-workout{
+        width: 140px;
+    }
 }
