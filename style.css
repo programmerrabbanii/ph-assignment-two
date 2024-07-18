@@ -220,6 +220,112 @@ body{
     width: 500px;
     border-radius: 10px;
 }
+/* run an extra sectin end here */
+/* Challenge unique section start here */
+
+.challenge {
+    margin-top: 60px;
+
+
+}
+
+.challenge-left img{
+    width: 100%;
+}
+.challenge-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+}
+.challenge-left{
+    width: 50%;
+}
+.challenge-rights{
+    color: white;
+    width: 50%;
+}
+.challenge-rights h2{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+.challenge-rights p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.challenge-rights h4{
+    border-bottom: 2px solid #ef0e0e;
+    width: 120px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+/* challenge section end here */
+/* BMI calculator section start here */
+.bmi-calculator{
+    color: white;
+    margin-top: 60px;
+}
+.bmi-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bmi-title{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 131px;
+}
+.bmi-title h3{
+    font-size: 44px;
+    margin-bottom: 10px;
+   
+}
+
+.bmi-mid h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+table, th, td{
+    border: 1px solid #777777;
+    padding: 10px;
+}
+table td{
+    color: #777777;
+
+}
+table{
+    border-collapse: collapse;
+}
+.bmi-your-calculator p{
+    margin-bottom: 15px;
+    color: #777777;
+}
+.bmi-calculator-chart{
+    width: 50%;
+}
+.bmi-your-calculator{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive desing start here */
 @media screen and (max-width:676px){
@@ -284,5 +390,31 @@ body{
         padding: 20px 126px;
         color: white;
         border-radius: 29px;
+    }
+
+
+    .challenge-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+    
+    }
+
+
+    .challenge-left {
+     width: 100%;
+    }
+
+    .challenge-rights {
+        width: 100%;
+    }
+
+    .challenge-rights h2 {
+        font-size: 26px;
+        line-height: 36px;
+        font-weight: 600;
+        margin-top: 17px;
     }
 }
