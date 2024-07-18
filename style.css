@@ -150,7 +150,76 @@ body{
 }
 /* bannar section end */
 /* change your habbis section start */
+.habbits{
+    margin-top: 50px;
+}
+.habbits-title{
+    text-align: center;
+    color: white;
+    
+}
+.habbits-title h3{
+    font-size: 40px;
+    line-height: 44px;
+}
+.habbits-title p{
+    margin-top: 10px;
+}
+.habbits-mid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.habbits-box h4{
+    color: white;
+}
+.habbits-box img{
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid #777777;
+}
+.habbits-box {
+    color: #777777;
+    text-align: center;
+    margin-top: 10px;
+}
+.habbits-box h4{
+    line-height: 2;
+}
 
+/* chage your habbit sectin end here */
+/* run an extra section start here */
+
+.rung{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.run-left h3{
+    color: white;
+    font-size: 40px;
+}
+.run-left p{
+    color: #777777;
+    margin-top: 14px;
+}
+.run-left button{
+    background-color: #E6533C;
+    border: none;
+    margin-top: 14px;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 29px;
+}
+.run-rights img{
+    width: 500px;
+    border-radius: 10px;
+}
 
 /* responsive desing start here */
 @media screen and (max-width:676px){
@@ -179,5 +248,41 @@ body{
     }
     .video-workout{
         width: 140px;
+    }
+
+    .habbits-mid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .habbits-title h3 {
+        font-size: 33px;
+        line-height: 44px;
+    }
+
+    .rung{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #222222;
+        padding: 30px;
+        border-radius: 10px;
+        gap: 20px;
+    }
+    .run-rights img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .run-left button {
+        background-color: #E6533C;
+        border: none;
+        margin-top: 20px;
+        padding: 20px 126px;
+        color: white;
+        border-radius: 29px;
     }
 }
