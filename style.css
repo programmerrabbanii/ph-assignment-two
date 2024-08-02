@@ -3,8 +3,11 @@
     padding: 0;
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body{
+    font-family: "Inter", sans-serif;
     background-color: black;
+    
 }
 .container{
     width: 80%;
@@ -43,6 +46,10 @@ body{
     border-radius: 20px;
 }
 /* bannar section start */
+.bannar-left span{
+    font-style: italic;
+    font-weight: 300;
+}
 .bannar{
     display: flex;
     justify-content: space-between;
@@ -574,5 +581,12 @@ select {
         background-color: #222222;
         padding: 20px;
         border-radius: 10px;
+    }
+
+    .footer-box{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        gap: 80px;
+        padding: 30px;
     }
 }
